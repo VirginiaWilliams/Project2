@@ -1,5 +1,9 @@
 from tkinter import *
- 
+import dbControllers
+
+test = dbControllers.getTopicColor("ASL")
+print("ASL is ", test)
+
 # create root window
 root = Tk()
  
