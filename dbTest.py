@@ -7,8 +7,12 @@ cur.execute("CREATE TABLE testTable(topic, time, color)")
 
 cur.execute("""
     INSERT INTO testTable VALUES
-        ('ASL', 0, 'blue'),
-        ('B', 0, 'red')
+        ('A', 0, 'blue'),
+        ('B', 0, 'red'),
+        ('C', 0, 'green'),
+        ('D', 0, 'yellow'),
+        ('E', 0, 'purple'),
+        ('F', 0, 'orange')
 """)
 
 con.commit()
